@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header-area{
+    display: flex;
+    padding-top: 4%;
+    overflow: hidden;
+}
+.header-left{
+    width: 50%;
+    margin-left: 7%;
+    margin-top: 50px;
+}
+.focused-area h1{
+    margin: 0;
+    font-size: 50px;
+}
+.header-right{
+    width: 50%;
+    margin-left: 120px;
+}
+#header-img{
+    width: 70%;
+    height: 500px;
+}
+.focused-area{
+    padding: 2%;
+    border-left: 3px solid red;
+}
+.orange{
+    color: orange;
+}
+.header-left a{
+    text-decoration: none;
+    background: #ff5959;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#scroll-down{
+    margin-top: 35px;
+}
