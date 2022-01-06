@@ -30,8 +30,8 @@ section{
 }
 .focused-area{
     padding: 2%;
-    border-left: 3px solid red;
-    border-width: 0px 3px;
+    border-left: solid red;
+    border-width: 0 3px;
 }
 .orange{
     color: orange;
@@ -56,7 +56,7 @@ section{
 .illustrator-area{
     width: 25%;
     margin-left: 2%;
-    padding: 10px;
+    padding: 15px;
     border-radius: 20px;
 }
 .illustrator-img{
@@ -110,5 +110,39 @@ section{
 }
 .coding-dev-width p{
     padding-right: 80px;
+}
+.global-area{
+    display: flex;
+    padding: 7%;
+}
+.global-community{
+    width: 60%;
+}
+.global-community-img{
+    width: 40%;
+}
+.global-community-img img{
+    width: 75%;
+    margin-left: 40px;
+}
+.global-community a{
+    text-decoration: none;
+    background: #ff5959;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.global-community h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.footer-area{
+    background: black;
+    color: #FFF;
+}
+.footer-common{
+    text-align: center;
+    font-family:'Satisfy', cursive;;
 }
 
