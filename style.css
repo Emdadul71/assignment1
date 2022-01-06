@@ -88,6 +88,10 @@ section{
     width: 100%;
     padding-top: 8%;
     display: flex;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 200px;
 }
 .coding-img-width{
     width: 70%;
@@ -136,6 +140,40 @@ section{
 .global-community h1{
     font-size: 40px;
     font-weight: bolder;
+}
+.app-section{
+    margin: auto;
+}
+.appointment-area{
+    margin-left: 10%;
+    overflow: hidden;
+}
+.app-img{
+    width: 40%;
+    float: left;
+
+}
+.app-img img{
+    width: 100%;
+}
+.app-details{
+    width: 40%;
+    overflow: hidden;
+    padding-top: 8%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+.app-details a{
+    text-decoration: none;
+    background: #ff5959;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+#d-appointment{
+    text-align: center;
+    font-size: 50px;
 }
 .footer-area{
     background: black;
