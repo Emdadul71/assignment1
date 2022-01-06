@@ -16,6 +16,13 @@ section{
     margin-top: 50px;
     overflow: hidden;
 }
+#border-area{
+    width: 5px;
+    border-right: 4px solid red;
+    float: left;
+    height: 114px;
+    margin-top: 19px;
+}
 .focused-area h1{
     margin: 0;
     font-size: 50px;
@@ -29,9 +36,7 @@ section{
     height: 500px;
 }
 .focused-area{
-    padding: 2%;
-    border-left: solid red;
-    border-width: 0 3px;
+    padding-left: 4%;
 }
 .orange{
     color: orange;
