@@ -2,6 +2,9 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+section{
+    overflow: hidden;
+}
 .header-area{
     display: flex;
     padding-top: 4%;
@@ -11,6 +14,7 @@ body{
     width: 50%;
     margin-left: 7%;
     margin-top: 50px;
+    overflow: hidden;
 }
 .focused-area h1{
     margin: 0;
@@ -27,6 +31,7 @@ body{
 .focused-area{
     padding: 2%;
     border-left: 3px solid red;
+    border-width: 0px 3px;
 }
 .orange{
     color: orange;
@@ -42,3 +47,68 @@ body{
 #scroll-down{
     margin-top: 35px;
 }
+.second-area{
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-left: 10%;
+}
+.illustrator-area{
+    width: 25%;
+    margin-left: 2%;
+    padding: 10px;
+    border-radius: 20px;
+}
+.illustrator-img{
+    width: 35%;
+    height: 150px;
+}
+#mission-background{
+    background: #edf5f6;
+}
+#vission-background{
+    background: #ffeeee;
+}
+#goal-background{
+    background: #fff4d6;
+}
+.my-mission{
+    text-align: center;
+    font-size: 40px;
+}
+.paragraph-font{
+    font-size: 15px;
+}
+.coding-img{
+    width: 70%;
+    height: 350px;
+    margin-left: 20%;
+}
+.coding-area{
+    width: 100%;
+    padding-top: 8%;
+    display: flex;
+}
+.coding-img-width{
+    width: 70%;
+}
+.coding-dev-width a{
+    text-decoration: none;
+    background: #ff5959;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.coding-dev-width{
+    width: 100%;
+    padding-top: 2%;
+}
+.coding-dev-width h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.coding-dev-width p{
+    padding-right: 80px;
+}
+
